@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Pure</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+
+    <!-- MyStyle.css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Main Nav bar -->
+    <nav class="navbar">
+        <h1 style="color:#080037">Style Pure</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!-- Side-navbar -->
+    <div class="side-navbar">
+        <p style="text-align:right" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    <!--Product-->
+<div class="product-section">
+
+    <form class="product-search">
+        <input type="text" id="search" placeholder="Search">
+        <i class="fa solid fa-magnifying-glass"></i>
+    </forrm>
+</div>
+   <div class="products" id="products" >
+    <div class="products-box">
+       <img src="https://images.unsplash.com/photo-1618677603544-51162346e165?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="200px" height="200px">
+       <p>White Shirt</p>
+    </div>
+    <div class="products-box">
+        <img src="https://images.unsplash.com/photo-1571455786673-9d9d6c194f90?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="200px" height="200px">
+        <p>Black Shirt</p>
+     </div>
+     <div class="products-box">
+        <img src="https://images.unsplash.com/photo-1618677603286-0ec56cb6e1b5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFdoaXRlJTIwc2hpcnRzfGVufDB8fDB8fHww" width="200px" height="200px">
+        <p>White Shirt</p>
+     </div>
+     <div class="products-box">
+         <img src="https://plus.unsplash.com/premium_photo-1691622500893-1319bc0b946b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGJsYWNrJTIwc2hpcnRzfGVufDB8fDB8fHww" width="200px" height="200px">
+         <p>Black Shirt</p>
+      </div>
+      <div class="products-box">
+        <img src="https://plus.unsplash.com/premium_photo-1690340192770-3460a6c5067c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fFdoaXRlJTIwc2hpcnRzfGVufDB8fDB8fHww" width="200px" height="200px">
+        <p>White Shirt</p>
+     </div>
+     <div class="products-box">
+         <img src="https://plus.unsplash.com/premium_photo-1689977492903-bd8d201af5bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGJsYWNrJTIwc2hpcnRzfGVufDB8fDB8fHww" width="200px" height="200px">
+         <p>Black Shirt</p>
+      </div>
+      <div class="products-box">
+         <img src="https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fFdoaXRlJTIwc2hpcnRzfGVufDB8fDB8fHww" width="200px" height="200px">
+         <p>White Shirt</p>
+      </div>
+      <div class="products-box">
+          <img src="https://plus.unsplash.com/premium_photo-1689295800550-02a0e48b5509?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQxfHxibGFjayUyMHNoaXJ0c3xlbnwwfHwwfHx8MA%3D%3D" width="200px" height="200px">
+          <p>Black Shirt</p>
+       </div>
+    </div>
+</div> 
+<!--Footer-->
+
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box-1">
+            <h2 class="headingText">Style Pure</h2>
+            <p>Trendy and stylish with powerful filtering options, great for fashion stores with larger inventories.</p>
+            <div class="footer-icon-container">
+                <i class="fa-brands fa-instagram" style="color:white"></i>
+                <i class="fa-brands fa-twitter" style="color:white"></i>
+                <i class="fa-brands fa-facebook" style="color:white"></i>
+                
+            </div>
+        </div>
+    </div>
+    <p>@StylePure2289.com</p>
+ </div>
+<script src="collection.js"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
